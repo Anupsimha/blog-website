@@ -14,7 +14,7 @@ const app = express();
 const PORT = 5000 || process.env.PORT; 
 
 // Connect Database
-connectDB();
+connectDB();    
 
 app.use(express.urlencoded({extended : true}));
 app.use(express.json());
